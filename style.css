@@ -38,21 +38,21 @@ main {
   display: flex;
   flex-direction: column;
 }
-main section {
+main section.view1 {
   width: 100%;
   display: flex;
   flex-direction: column;
   padding: 1.2rem;
   gap: 1.3rem;
 }
-main section .top {
+main section.view1 .top {
   width: 100%;
 }
-main section .top img {
+main section.view1 .top img {
   width: 100%;
   border-radius: 1rem;
 }
-main section .bottom {
+main section.view1 .bottom {
   background-color: var(--divBlack);
   padding: 1.3rem;
   display: flex;
@@ -60,12 +60,12 @@ main section .bottom {
   gap: 4.3rem;
   border-radius: 1.3rem;
 }
-main section .bottom .text {
+main section.view1 .bottom .text {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
-main section .bottom .text h1 {
+main section.view1 .bottom .text h1 {
   color: var(--textWhite);
   font-family: chill;
   font-size: 2.25rem;
@@ -74,20 +74,20 @@ main section .bottom .text h1 {
   font-weight: 400;
   letter-spacing: 1px;
 }
-main section .bottom .text p {
+main section.view1 .bottom .text p {
   color: var(--textWhite2);
   font-family: satoshi;
   font-size: 1.25rem;
   font-weight: 800;
   letter-spacing: 1px;
 }
-main section .bottom .text .bottom-btn {
+main section.view1 .bottom .text .bottom-btn {
   display: flex;
   align-items: center;
   vertical-align: middle;
   gap: 0.5rem;
 }
-main section .bottom .text .bottom-btn button {
+main section.view1 .bottom .text .bottom-btn button {
   width: -moz-fit-content;
   width: fit-content;
   background: transparent;
@@ -98,40 +98,215 @@ main section .bottom .text .bottom-btn button {
   margin-top: 1.2rem;
   text-transform: uppercase;
 }
-main section .bottom .text .bottom-btn i {
+main section.view1 .bottom .text .bottom-btn i {
   font-size: 40px;
   vertical-align: middle;
   color: var(--textWhite2);
 }
-main section .bottom .Studio {
+main section.view1 .bottom .Studio {
+  color: var(--textWhite);
+  font-family: robo;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+main section.view2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 1.1rem;
+  gap: 1rem;
+}
+main section.view2 .top,
+main section.view2 .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 6rem;
+}
+main section.view2 .top .elements,
+main section.view2 .bottom .elements {
+  text-align: center;
+}
+main section.view2 .top .elements small,
+main section.view2 .bottom .elements small {
+  color: var(--textWhite2);
+  font-family: robo;
+  font-size: 1rem;
+}
+main section.view2 .top .elements h2,
+main section.view2 .bottom .elements h2 {
+  color: var(--textWhite);
+  font-family: chill;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+main section.view3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem;
+  gap: 1.3rem;
+}
+main section.view3 .top {
+  width: 100%;
+}
+main section.view3 .top img {
+  width: 100%;
+  border-radius: 1rem;
+}
+main section.view3 .bottom {
+  background-color: var(--divBlack);
+  padding: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4.3rem;
+  border-radius: 1.3rem;
+}
+main section.view3 .bottom .text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main section.view3 .bottom .text h1 {
+  color: var(--textWhite);
+  font-family: chill;
+  font-size: 2.25rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+main section.view3 .bottom .text p {
+  color: var(--textWhite2);
+  font-family: satoshi;
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+main section.view3 .bottom .Studio {
+  color: var(--textWhite);
+  font-family: robo;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+main section.view4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem;
+  gap: 1.3rem;
+}
+main section.view4 .top {
+  width: 100%;
+}
+main section.view4 .top img {
+  width: 100%;
+  border-radius: 1rem;
+}
+main section.view4 .bottom {
+  background-color: var(--divBlack);
+  padding: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4.3rem;
+  border-radius: 1.3rem;
+}
+main section.view4 .bottom .text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main section.view4 .bottom .text h1 {
+  color: var(--textWhite);
+  font-family: chill;
+  font-size: 2.25rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+main section.view4 .bottom .text p {
+  color: var(--textWhite2);
+  font-family: satoshi;
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+main section.view4 .bottom .Studio {
   color: var(--textWhite);
   font-family: robo;
   font-size: 1rem;
   text-transform: uppercase;
 }
 @media (min-width: 900px) {
-  main section {
+  main section.view1 {
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 1rem;
   }
-  main section .top,
-  main section .bottom {
+  main section.view1 .top,
+  main section.view1 .bottom {
     width: 50%;
   }
-  main section .bottom {
+  main section.view1 .bottom {
     padding: 4rem;
     justify-content: space-between;
     gap: 7.9rem;
   }
-  main section .bottom .text {
+  main section.view1 .bottom .text {
     gap: 1.3rem;
   }
-  main section .bottom .text h1 {
+  main section.view1 .bottom .text h1 {
     font-size: 2.4rem;
   }
-  main section .bottom .text p {
+  main section.view1 .bottom .text p {
     font-size: 1.25rem;
+  }
+  main section.view2 {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1rem 4rem;
+  }
+  main section.view3 {
+    flex-direction: row-reverse;
+  }
+  main section.view3 .top,
+  main section.view3 .bottom {
+    width: 50%;
+  }
+  main section.view3 .bottom {
+    justify-content: space-between;
+  }
+  main section.view3 .bottom .text h1 {
+    font-size: 2.4rem;
+  }
+  main section.view3 .bottom .text p {
+    font-size: 1rem;
+  }
+  main section.view3 .para {
+    display: flex;
+    gap: 1rem;
+  }
+  main section.view4 {
+    flex-direction: row;
+  }
+  main section.view4 .top,
+  main section.view4 .bottom {
+    width: 50%;
+  }
+  main section.view4 .bottom {
+    justify-content: space-between;
+  }
+  main section.view4 .bottom .text h1 {
+    font-size: 2.4rem;
+  }
+  main section.view4 .bottom .text p {
+    font-size: 1rem;
+  }
+  main section.view4 .para {
+    display: flex;
+    gap: 1rem;
   }
 }/*# sourceMappingURL=style.css.map */
