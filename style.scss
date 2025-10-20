@@ -227,7 +227,7 @@ main {
         }
     }
 
-     section.view4 {
+    section.view4 {
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -286,6 +286,281 @@ main {
         }
     }
 
+    section.view5 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 1.2rem;
+        gap: 1.3rem;
+
+        h1 {
+            color: var(--textWhite);
+            font-family: chill;
+        }
+
+        p {
+            color: var(--textWhite);
+            font-family: chill;
+        }
+
+        .card-container {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .card1 {
+            width: 100%;
+            padding: 1rem 1rem;
+            background-image: url(./images/pic4.webp);
+            aspect-ratio: 1/1;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            // align-items: center;
+            justify-content: space-between;
+            border-radius: 1.3rem;
+
+            .icon {
+                margin-top: 1.5rem;
+                margin-right: 1rem;
+                display: flex;
+                text-align: right;
+                gap: 1.5rem;
+                justify-content: right;
+
+                .icon-circle {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    border-radius: 50%;
+                    backdrop-filter: blur(2rem);
+                    background-color: rgba(78, 76, 76, 0.1);
+                    border: 1px solid rgba(255, 255, 255, 0.3);
+                }
+
+                i {
+                    color: var(--textWhite);
+                    font-size: 1.3rem;
+                    font-weight: 100;
+                    opacity: 0.6;
+                }
+            }
+
+            .text {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 1rem;
+                gap: 2rem;
+
+                backdrop-filter: blur(3.2rem);
+                /* applies blur behind the div */
+                background-color: rgba(3, 3, 3, 0.1);
+                /* translucent overlay */
+                border: 1px solid rgba(255, 255, 255, 0.3);
+                /* optional frosted glass effect */
+                border-radius: 10px;
+
+                .name {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+
+        .card2 {
+            width: 100%;
+            padding: 1rem 1rem;
+            background-image: url(./images/pic5.webp);
+            aspect-ratio: 1/1;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            // align-items: center;
+            justify-content: space-between;
+            border-radius: 1.3rem;
+
+            .icon {
+                margin-top: 1.5rem;
+                margin-right: 1rem;
+                display: flex;
+                text-align: right;
+                gap: 1.5rem;
+                justify-content: right;
+
+                .icon-circle {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    border-radius: 50%;
+                    backdrop-filter: blur(2rem);
+                    background-color: rgba(78, 76, 76, 0.1);
+                    border: 1px solid rgba(255, 255, 255, 0.3);
+                }
+
+                i {
+                    color: var(--textWhite);
+                    font-size: 1.3rem;
+                    font-weight: 100;
+                    opacity: 0.6;
+                }
+            }
+
+            .text {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 1rem;
+                gap: 2rem;
+
+                backdrop-filter: blur(3.2rem);
+                /* applies blur behind the div */
+                background-color: rgba(3, 3, 3, 0.1);
+                /* translucent overlay */
+                border: 1px solid rgba(255, 255, 255, 0.3);
+                /* optional frosted glass effect */
+                border-radius: 10px;
+
+                .name {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+
+        .card3 {
+            width: 100%;
+            padding: 1rem 1rem;
+            background-image: url(./images/pic6.webp);
+            aspect-ratio: 1/1;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            // align-items: center;
+            justify-content: space-between;
+            border-radius: 1.3rem;
+
+            .icon {
+                margin-top: 1.5rem;
+                margin-right: 1rem;
+                display: flex;
+                text-align: right;
+                gap: 1.5rem;
+                justify-content: right;
+
+                .icon-circle {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    border-radius: 50%;
+                    backdrop-filter: blur(2rem);
+                    background-color: rgba(78, 76, 76, 0.1);
+                    border: 1px solid rgba(255, 255, 255, 0.3);
+                }
+
+                i {
+                    color: var(--textWhite);
+                    font-size: 1.3rem;
+                    font-weight: 100;
+                    opacity: 0.6;
+                }
+            }
+
+            .text {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 1rem;
+                gap: 2rem;
+
+                backdrop-filter: blur(3.2rem);
+                /* applies blur behind the div */
+                background-color: rgba(3, 3, 3, 0.1);
+                /* translucent overlay */
+                border: 1px solid rgba(255, 255, 255, 0.3);
+                /* optional frosted glass effect */
+                border-radius: 10px;
+
+                .name {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+
+    section.view6 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 1.2rem;
+        gap: 1.3rem;
+
+        .top {
+            width: 100%;
+
+            img {
+                width: 100%;
+                border-radius: 1rem;
+            }
+        }
+
+        .bottom {
+            background-color: var(--divBlack);
+            padding: 1.75rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            border-radius: 1.3rem;
+
+
+            .text {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                gap: 5rem;
+
+                h1 {
+                    color: var(--textWhite);
+                    font-family: chill;
+                    font-size: 2rem;
+                    line-height: 1.2;
+                    text-transform: uppercase;
+                    font-weight: 400;
+                    letter-spacing: 1px;
+                }
+
+                p {
+                    color: var(--textWhite);
+                    font-family: robo;
+                    font-size: 1rem;
+                    font-weight: 800;
+                    letter-spacing: 1px;
+                }
+            }
+
+            .Studio {
+                color: var(--textWhite2);
+                font-family: robo;
+                font-size: 1rem;
+                text-transform: uppercase;
+            }
+        }
+    }
+
     @media (min-width:900px) {
         section.view1 {
             flex-direction: row;
@@ -336,18 +611,20 @@ main {
 
             .bottom {
                 justify-content: space-between;
-                
-                .text {                   
-                    
+
+                .text {
+
                     h1 {
                         font-size: 2.4rem;
                     }
-                    p{
+
+                    p {
                         font-size: 1rem;
                     }
                 }
 
             }
+
             .para {
                 display: flex;
                 gap: 1rem;
@@ -364,22 +641,70 @@ main {
 
             .bottom {
                 justify-content: space-between;
-                
-                .text {                   
-                    
+
+                .text {
+
                     h1 {
                         font-size: 2.4rem;
                     }
-                    p{
+
+                    p {
                         font-size: 1rem;
                     }
                 }
 
             }
+
             .para {
                 display: flex;
                 gap: 1rem;
             }
+        }
+
+        section.view5 {
+
+
+            .card-container {
+                width: 100%;
+                flex-wrap: nowrap;
+                flex-direction: row;
+            }
+
+        }
+
+        section.view6 {
+            display: flex;
+            flex-direction: row;
+
+            .top,
+            .bottom {
+                width: 50%;
+            }
+
+            .bottom {
+                padding: 1.8rem 2.5rem;
+                // justify-content: space-between;
+                
+
+                .text {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    justify-content: space-between !important;
+                    gap: 10rem;
+
+                    h1 {
+                        font-size: 2.65rem;
+                    }
+
+                    p {
+                        font-size: 1rem;
+                    }
+                }
+
+            }
+
+            
         }
     }
 }

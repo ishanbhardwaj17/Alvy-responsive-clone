@@ -239,6 +239,250 @@ main section.view4 .bottom .Studio {
   font-size: 1rem;
   text-transform: uppercase;
 }
+main section.view5 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem;
+  gap: 1.3rem;
+}
+main section.view5 h1 {
+  color: var(--textWhite);
+  font-family: chill;
+}
+main section.view5 p {
+  color: var(--textWhite);
+  font-family: chill;
+}
+main section.view5 .card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main section.view5 .card1 {
+  width: 100%;
+  padding: 1rem 1rem;
+  background-image: url(./images/pic4.webp);
+  aspect-ratio: 1/1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 1.3rem;
+}
+main section.view5 .card1 .icon {
+  margin-top: 1.5rem;
+  margin-right: 1rem;
+  display: flex;
+  text-align: right;
+  gap: 1.5rem;
+  justify-content: right;
+}
+main section.view5 .card1 .icon .icon-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  -webkit-backdrop-filter: blur(2rem);
+          backdrop-filter: blur(2rem);
+  background-color: rgba(78, 76, 76, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+main section.view5 .card1 .icon i {
+  color: var(--textWhite);
+  font-size: 1.3rem;
+  font-weight: 100;
+  opacity: 0.6;
+}
+main section.view5 .card1 .text {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  gap: 2rem;
+  -webkit-backdrop-filter: blur(3.2rem);
+          backdrop-filter: blur(3.2rem);
+  /* applies blur behind the div */
+  background-color: rgba(3, 3, 3, 0.1);
+  /* translucent overlay */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  /* optional frosted glass effect */
+  border-radius: 10px;
+}
+main section.view5 .card1 .text .name {
+  font-size: 1.5rem;
+}
+main section.view5 .card2 {
+  width: 100%;
+  padding: 1rem 1rem;
+  background-image: url(./images/pic5.webp);
+  aspect-ratio: 1/1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 1.3rem;
+}
+main section.view5 .card2 .icon {
+  margin-top: 1.5rem;
+  margin-right: 1rem;
+  display: flex;
+  text-align: right;
+  gap: 1.5rem;
+  justify-content: right;
+}
+main section.view5 .card2 .icon .icon-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  -webkit-backdrop-filter: blur(2rem);
+          backdrop-filter: blur(2rem);
+  background-color: rgba(78, 76, 76, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+main section.view5 .card2 .icon i {
+  color: var(--textWhite);
+  font-size: 1.3rem;
+  font-weight: 100;
+  opacity: 0.6;
+}
+main section.view5 .card2 .text {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  gap: 2rem;
+  -webkit-backdrop-filter: blur(3.2rem);
+          backdrop-filter: blur(3.2rem);
+  /* applies blur behind the div */
+  background-color: rgba(3, 3, 3, 0.1);
+  /* translucent overlay */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  /* optional frosted glass effect */
+  border-radius: 10px;
+}
+main section.view5 .card2 .text .name {
+  font-size: 1.5rem;
+}
+main section.view5 .card3 {
+  width: 100%;
+  padding: 1rem 1rem;
+  background-image: url(./images/pic6.webp);
+  aspect-ratio: 1/1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 1.3rem;
+}
+main section.view5 .card3 .icon {
+  margin-top: 1.5rem;
+  margin-right: 1rem;
+  display: flex;
+  text-align: right;
+  gap: 1.5rem;
+  justify-content: right;
+}
+main section.view5 .card3 .icon .icon-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  -webkit-backdrop-filter: blur(2rem);
+          backdrop-filter: blur(2rem);
+  background-color: rgba(78, 76, 76, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+main section.view5 .card3 .icon i {
+  color: var(--textWhite);
+  font-size: 1.3rem;
+  font-weight: 100;
+  opacity: 0.6;
+}
+main section.view5 .card3 .text {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  gap: 2rem;
+  -webkit-backdrop-filter: blur(3.2rem);
+          backdrop-filter: blur(3.2rem);
+  /* applies blur behind the div */
+  background-color: rgba(3, 3, 3, 0.1);
+  /* translucent overlay */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  /* optional frosted glass effect */
+  border-radius: 10px;
+}
+main section.view5 .card3 .text .name {
+  font-size: 1.5rem;
+}
+main section.view6 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem;
+  gap: 1.3rem;
+}
+main section.view6 .top {
+  width: 100%;
+}
+main section.view6 .top img {
+  width: 100%;
+  border-radius: 1rem;
+}
+main section.view6 .bottom {
+  background-color: var(--divBlack);
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 1.3rem;
+}
+main section.view6 .bottom .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5rem;
+}
+main section.view6 .bottom .text h1 {
+  color: var(--textWhite);
+  font-family: chill;
+  font-size: 2rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+main section.view6 .bottom .text p {
+  color: var(--textWhite);
+  font-family: robo;
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+main section.view6 .bottom .Studio {
+  color: var(--textWhite2);
+  font-family: robo;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
 @media (min-width: 900px) {
   main section.view1 {
     flex-direction: row;
@@ -308,5 +552,34 @@ main section.view4 .bottom .Studio {
   main section.view4 .para {
     display: flex;
     gap: 1rem;
+  }
+  main section.view5 .card-container {
+    width: 100%;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+  main section.view6 {
+    display: flex;
+    flex-direction: row;
+  }
+  main section.view6 .top,
+  main section.view6 .bottom {
+    width: 50%;
+  }
+  main section.view6 .bottom {
+    padding: 1.8rem 2.5rem;
+  }
+  main section.view6 .bottom .text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between !important;
+    gap: 10rem;
+  }
+  main section.view6 .bottom .text h1 {
+    font-size: 2.65rem;
+  }
+  main section.view6 .bottom .text p {
+    font-size: 1rem;
   }
 }/*# sourceMappingURL=style.css.map */
