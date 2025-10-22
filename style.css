@@ -524,6 +524,108 @@ main section.view7 .box .text button {
   border: none;
   font-family: robo;
 }
+main section.view8 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem;
+  gap: 1.3rem;
+}
+main section.view8 .grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+main section.view8 .grid .div1 .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--textWhite);
+  gap: 3rem;
+  background-color: var(--divBlack);
+  padding: 1.5rem;
+  border-radius: 1.2rem;
+  font-family: chill;
+}
+main section.view8 .grid .div1 .text .icon {
+  margin-top: 1.5rem;
+  margin-right: 1rem;
+  display: flex;
+  text-align: right;
+  gap: 1.5rem;
+}
+main section.view8 .grid .div1 .text .icon .icon-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  -webkit-backdrop-filter: blur(2rem);
+          backdrop-filter: blur(2rem);
+  background-color: rgba(78, 76, 76, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+main section.view8 .grid .div1 .text .icon i {
+  color: var(--textWhite);
+  font-size: 1.3rem;
+  font-weight: 100;
+}
+main section.view8 .grid .div2 .text {
+  display: flex;
+  flex-direction: column;
+  color: var(--textWhite);
+  gap: 2rem;
+  background-color: var(--divBlack);
+  padding: 1.5rem;
+  border-radius: 1.2rem;
+}
+main section.view8 .grid .div2 .text h1 {
+  font-family: chill;
+  color: var(--textWhite);
+  font-size: 1.25rem;
+}
+main section.view8 .grid .div2 .text p {
+  font-style: robo;
+  color: var(--textWhite2);
+  font-size: 1rem;
+}
+main section.view8 .grid .div2 .text .info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: robo;
+  align-items: flex-start;
+}
+main section.view8 .grid .div2 .text .info button {
+  width: auto;
+  padding: 1rem 1.2rem;
+  border-radius: 0.8rem;
+  border: none;
+  background-color: var(--yellow);
+  font-family: robo;
+  font-size: 1rem;
+}
+main section.view8 .grid .div3 .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--textWhite);
+  gap: 2rem;
+  background-color: var(--divBlack);
+  padding: 1.5rem;
+  border-radius: 1.2rem;
+  text-align: center;
+}
+main section.view8 .grid .div3 .text span {
+  font-family: robo;
+  color: var(--textWhite);
+  text-decoration: underline;
+}
+main section.view8 .grid .div3 .text p {
+  font-family: robo;
+  color: var(--textWhite2);
+}
 @media (min-width: 900px) {
   main section.view1 {
     flex-direction: row;
@@ -647,5 +749,28 @@ main section.view7 .box .text button {
     width: auto;
     margin-top: 0;
     padding: 1rem 2rem;
+  }
+  main section.view8 .grid {
+    display: grid;
+    width: 100%;
+    min-height: 90vh;
+    grid-template-columns: 22% 1fr;
+    grid-template-rows: 80% 1fr;
+    grid-template-areas: "div1 div2" "div1 div3";
+  }
+  main section.view8 .grid .div1 {
+    background-color: red;
+    color: white;
+    grid-area: div1;
+  }
+  main section.view8 .grid .div2 {
+    background-color: yellow;
+    color: white;
+    grid-area: div2;
+  }
+  main section.view8 .grid .div3 {
+    background-color: green;
+    color: white;
+    grid-area: div3;
   }
 }/*# sourceMappingURL=style.css.map */
