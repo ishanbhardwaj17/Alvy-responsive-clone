@@ -580,6 +580,11 @@ main section.view8 .grid .div2 .text {
   padding: 1.5rem;
   border-radius: 1.2rem;
 }
+main section.view8 .grid .div2 .text .box {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
 main section.view8 .grid .div2 .text h1 {
   font-family: chill;
   color: var(--textWhite);
@@ -593,7 +598,7 @@ main section.view8 .grid .div2 .text p {
 main section.view8 .grid .div2 .text .info {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 2rem;
   font-family: robo;
   align-items: flex-start;
 }
@@ -750,27 +755,42 @@ main section.view8 .grid .div3 .text p {
     margin-top: 0;
     padding: 1rem 2rem;
   }
+  main section.view8 {
+    margin-bottom: 3rem;
+  }
   main section.view8 .grid {
     display: grid;
     width: 100%;
-    min-height: 90vh;
     grid-template-columns: 22% 1fr;
     grid-template-rows: 80% 1fr;
     grid-template-areas: "div1 div2" "div1 div3";
   }
   main section.view8 .grid .div1 {
-    background-color: red;
-    color: white;
     grid-area: div1;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+  }
+  main section.view8 .grid .div1 .text {
+    width: 100%;
+    height: 100%;
   }
   main section.view8 .grid .div2 {
-    background-color: yellow;
-    color: white;
     grid-area: div2;
+    height: 100%;
+  }
+  main section.view8 .grid .div2 .text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
   }
   main section.view8 .grid .div3 {
-    background-color: green;
-    color: white;
     grid-area: div3;
+    height: 100%;
+  }
+  main section.view8 .grid .div3 .text {
+    height: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
